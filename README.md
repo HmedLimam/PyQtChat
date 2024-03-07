@@ -2,8 +2,9 @@
 
 Hello friends,
 
-This is a personal project I created in 2021 as a way for me to practice PyQt5, Socket, Threading, and a little bit of networking while completely neglecting security. More on that later.   
-The application is composed of three main files:
+This is a personal project I created in 2021 as a way for me to practice **PyQt5, Socket, Threading, and a little bit of networking** while completely *neglecting security*. More on that later.   
+
+The application is composed of three main files that can be found in **Gui Stable** folder:
 
 * **server.py:** This file should be running on the server-side. It opens a connection to a port of your choosing and then waits for and handles client connections.
 * **welcome.py:** This is the only file to be run by users wanting to access the chat app. It asks the user for the host and port they're trying to connect to, as well as their name.
