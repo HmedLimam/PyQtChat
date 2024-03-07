@@ -32,5 +32,8 @@ This is a personal project I created about 3-4 years ago as a way for me to prac
 ### Server and Client example
 <img src="2.png" alt="Screenshot" width="50%">
 
-#### Bonus
-You can see all of my to-dos in code, which are the tasks I envisioned completing, such as opening a private messaging tab.  
+## Security
+It goes without saying that the application **shouldn't be used in any official setting**, as its only purpose is academic research. At the time of creation, security wasn't a consideration. The security is BAD. Communication can be intercepted in plaintext, and potentially, fake packets can be crafted, leading to impersonation.  
+🚗 Proof of concept coming soon.
+
+### Proof of Concept
