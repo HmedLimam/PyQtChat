@@ -38,10 +38,12 @@ It goes without saying that the application **shouldn't be used in any official 
 
 ### Proof of Concept (Black Box Penetration Testing)
 #### Intercepting the unencrypted traffic in Wireshark
+
 <img src="3.png" alt="Screenshot" width="50%">
 I first noticed that there's a lot of traffic between the server and the client. Upon further investigation, it seems like the server sends the list of currently connected clients every x seconds. I tried sending a message to see how the traffic responds to that. At first, it was quite hard to catch it with all the traffic being sent, but after sorting by length in Wireshark, I was able to catch this.  
+
 <img src="4.png" alt="Screenshot" width="50%">
-So my goal now is to try to impersonate hmed. I created this Python script to test its feasibility.
+So my goal now is to try to impersonate hmed. I created this Python script to test its feasibility.  
   
 ```python
 import socket
