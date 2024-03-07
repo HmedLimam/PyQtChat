@@ -63,6 +63,7 @@ hackerSocket.send(b'<span style=" color: #ff0000;">hmed</span>: hey there! ')
 <img src="5.png" alt="Screenshot" width="50%">
 
 But sadly, that didn't work, as the server keeps sending messages using the name that you first send as a client.  
+
 ℹ It looks like the server has no way of checking whether a user is trying to connect with an already used name, and therefore anyone could log in using "hmed" and they will be able to impersonate them.  
 
 <img src="6.png" alt="Screenshot" width="50%">
