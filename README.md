@@ -31,3 +31,6 @@ This is a personal project I created about 3-4 years ago as a way for me to prac
 
 ### Server and Client example
 <img src="2.png" alt="Screenshot" width="50%">
+
+#### Bonus
+You can see all of my to-dos in code, which are the tasks I envisioned completing, such as opening a private messaging tab.  
