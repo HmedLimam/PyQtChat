@@ -36,7 +36,7 @@ The application is composed of three main files that can be found in **Gui Stabl
 
 ## Security
 It goes without saying that the application **shouldn't be used in any official setting**, as its only purpose is academic research. At the time of creation, security wasn't a consideration. The security is BAD. Communication can be intercepted in plaintext, and potentially, fake packets can be crafted, leading to impersonation.  
-🚗 Proof of concept coming soon.
+
 
 ### Proof of Concept (Black Box Penetration Testing)
 #### Intercepting the unencrypted traffic in Wireshark
