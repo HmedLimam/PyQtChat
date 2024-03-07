@@ -68,7 +68,7 @@ But sadly, that didn't work, as the server keeps sending messages using the name
 
 <img src="6.png" alt="Screenshot" width="50%">
 
-✅ Impersonating users is pretty easy, it's a huge security flaw. We don't need to code anything, we just have to log in using the name of the user we want to impersonate.  
+✅ Impersonating users is pretty easy, it's a huge security flaw. We don't need to code anything, we just have to log in using the name of the user we want to impersonate.   
 
 **What about impersonating the server? 🤔**  
 
