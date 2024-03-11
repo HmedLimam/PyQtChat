@@ -39,7 +39,7 @@ It goes without saying that the application **shouldn't be used in any official 
 
 
 ### Proof of Concept (Black Box Penetration Testing)
-#### Intercepting the unencrypted traffic in Wireshark
+#### Intercepting the unencrypted traffic with Wireshark
 
 <img src="3.png" alt="Screenshot" width="50%">
 I first noticed that there's a lot of traffic between the server and the client. Upon further investigation, it seems like the server sends the list of currently connected clients every x seconds. I tried sending a message to see how the traffic responds to that. At first, it was quite hard to catch it with all the traffic being sent, but after sorting by length in Wireshark, I was able to catch this.  
@@ -71,11 +71,14 @@ But sadly, that didn't work, as the server keeps sending messages using the name
 ✅ Impersonating users is pretty easy, it's a huge security flaw. We don't need to code anything, we just have to log in using the name of the user we want to impersonate even if they're already connected.  
 
 **What about impersonating the server? 🤔**  
+  
 
 <img src="7.png" alt="Screenshot" width="50%">  
 Again, I used wireshark to intercept a message sent by the server.  
 
 <img src="8.png" alt="Screenshot" width="50%">  
+
+#### Exploitation
 
 ```python
 import socket
