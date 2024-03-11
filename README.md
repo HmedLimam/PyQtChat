@@ -46,7 +46,9 @@ I first noticed that there's a lot of traffic between the server and the client.
 
 <img src="4.png" alt="Screenshot" width="50%">
 So my goal now is to try to impersonate hmed. I created this Python script to test its feasibility.  
-ℹThe server is now running at 192.168.1.128:1337.  
+  
+ℹI rerun the server and it's now running at 192.168.1.128:1337.  
+  
   
 ```python
 import socket
